@@ -1,0 +1,21 @@
+do_let_form:
+# def helper(lst):
+    #     if lst == nil:
+    #         return lst
+    #     return Pair(lst[0][0], helper(lst.second))
+    # def helper1(lst):
+    #     if lst == nil:
+    #         return lst
+    #     try:
+    #         a = scheme_eval(lst[0][1], env)
+    #         return Pair(a, helper1(lst.second))
+    #     except SchemeError:
+    #         return Pair(lst[0][1], helper1(lst.second))
+    # values = helper1(bindings)
+    # names = helper(bindings)
+
+check_formals
+
+    # temp = list(formals)
+    # if len(temp) != len(set(temp)):
+    #     raise SchemeError("duplicates in list")

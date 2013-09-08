@@ -1,0 +1,6 @@
+(fact (modulus (?x . ?r) ?r (?x)))
+
+(query (modulus (1 1 1) (1 1) ?what))
+(query (modulus (1 1 1 1) (1 1) ?what))
+(query (modulus (1 1 1 1 1) (1 1) ?what))
+(query (modulus (1 1 1 1 1) ?what (1)))
